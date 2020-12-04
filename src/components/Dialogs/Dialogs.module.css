@@ -2,3 +2,66 @@
 .content {
   font-size: 24px;
 }
+
+.dialogs {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.dialogsItems {
+ 
+}
+
+.dialog {
+  margin-bottom: 10px;
+}
+
+.dialog a{
+  color: blue
+}
+
+.dialogsItems .active {
+  color: red;
+}
+
+.messages {
+
+  
+}
+
+.message {
+  margin: 15px 0;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  width: max-content;
+  position: relative;
+}
+
+.message::before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: -20px;
+  background-color: #ffffff;
+}
+
+.message::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: #ffffff;
+  border-radius: 50%;
+  top: 0;
+  left: -35px;
+  position: absolute;
+}
+
+@media (max-width: 575px) {
+  .message {width: 100%;}
+  .message::before{content: none;}
+  .message::after{left: -15px;}
+}

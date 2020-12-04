@@ -61,8 +61,9 @@ a {
 }
 
 .app-wrapper-content {
-  grid-area: c ;
-  background: #00BFFF;
+  grid-area: c;
+  background: #dedede;
+  padding: 15px 10px;
 }
 
 img {

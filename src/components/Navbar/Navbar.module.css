@@ -3,25 +3,26 @@
 .nav {
   grid-area: n;
   background: #00BFFF;
+  padding: 10px 0;
 }
 
 .item {
-  padding: 5px 10px;
+  padding: 5px 20px;
   font-size: 18px;
 }
 
 .item a{
   color: #ffffff;
-  transition: 0.5s;
+  transition: 0.3s;
   border-bottom: solid 1px transparent;
 }
 
 .item a:hover{
-  border-color: tomato;
-  color: tomato;
+  /* border-color: #dedede; */
+  color: gold;
 }
 
-.item.active a{
+.item a.active {
   color: tomato;
   border-color: tomato;
 }
