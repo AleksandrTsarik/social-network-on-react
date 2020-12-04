@@ -13,9 +13,24 @@
   }
 }
 
-* {
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+*, *::before, *::after {
   box-sizing: border-box;
 }
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 
 .App-header {
   background-color: #282c34;
@@ -58,15 +73,31 @@ a {
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
   grid-gap: 5px;
+  
 }
 
 .app-wrapper-content {
   grid-area: c;
-  background: #dedede;
-  padding: 15px 10px;
+  /* background: coral; */
+  background: darkseagreen;
+  background: #00838f;
+  background: #4eb6bf;
+  /* background: linear-gradient(to top, #676968, #d0d3d1); */
+}
+
+.content-inner {
+  padding: 0 15px;
 }
 
 img {
   max-width: 100%;
   vertical-align: bottom;
+}
+
+button {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 10px 30px;
+  outline: none;
 }
