@@ -13,6 +13,10 @@
   }
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +39,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+a {
+  text-decoration: none;
+}
+ 
+.app-wrapper {
+  display: grid;
+  max-width: 1200px;
+  padding: 0 50px;
+  margin: 0 auto;
+
+  grid-template-areas: 
+  "h h"
+  "n c"
+  ;
+
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 5px;
+}
+
+.app-wrapper-content {
+  grid-area: c ;
+  background: #00BFFF;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
 }

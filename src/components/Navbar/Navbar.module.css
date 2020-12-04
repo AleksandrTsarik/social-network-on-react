@@ -1,0 +1,27 @@
+
+
+.nav {
+  grid-area: n;
+  background: #00BFFF;
+}
+
+.item {
+  padding: 5px 10px;
+  font-size: 18px;
+}
+
+.item a{
+  color: #ffffff;
+  transition: 0.5s;
+  border-bottom: solid 1px transparent;
+}
+
+.item a:hover{
+  border-color: tomato;
+  color: tomato;
+}
+
+.item.active a{
+  color: tomato;
+  border-color: tomato;
+}
