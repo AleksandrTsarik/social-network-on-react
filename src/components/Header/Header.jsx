@@ -5,7 +5,7 @@ const Header = () => {
         <header className={classes.header}>
             <div className={classes.img}>
                 {/* <img src='https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png'></img> */}
-                <img src='https://www.pikpng.com/pngl/m/59-596262_wolf-png-logo-for-free-download-on-wolf.png'></img>
+                <img src='https://pngquant.org/pngquant-logo.png'></img>
                 
             </div>
 

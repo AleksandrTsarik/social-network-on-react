@@ -3,13 +3,16 @@
 .header {
   grid-area: h ;
   background: #013e5a;
+  align-items: center;
+  display: grid;
   }
   
 .header img {
   width: 70px;
   height: 50px;
+  line-height: 60px;
 } 
 
-.img {
+/* .img {
   padding: 10px 0;
-}
+} */
